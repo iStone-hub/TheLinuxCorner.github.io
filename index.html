@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Linux Corner - Accueil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="#hero">THE LINUX CORNER</a>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+        <ul class="nav-list">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#featured">Tutoriels en vedette</a></li>
+          <li><a href="#news">Dernières Actualités IT</a></li>
+          <li><a href="#about">À propos de nous</a></li>
+          <li><a href="#join">Rejoignez le terminal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="section hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>THE LINUX CORNER</h1>
+        <p>
+          Expertise technique et astuces Linux pour les passionnés et les professionnels.
+        </p>
+        <a href="#news" class="btn primary">DÉCOUVRIR LES ASTUCES</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TUTORIELS EN VEDETTE -->
+  <section id="featured" class="section">
+    <div class="container">
+      <h2>Tutoriels en vedette</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-image placeholder-image"></div>
+          <h3>Optimisation du noyau</h3>
+          <p>
+            Guide avancé pour configurer les paramètres de performance de votre noyau Linux.
+          </p>
+          <a href="#news" class="btn secondary">Lire le guide</a>
+        </article>
+
+        <article class="card">
+          <div class="card-image placeholder-image"></div>
+          <h3>Machine Learning</h3>
+          <p>
+            Prise en main complète des frameworks Python pour vos projets de Machine Learning.
+          </p>
+          <a href="#news" class="btn secondary">Lire le guide</a>
+        </article>
+
+        <article class="card">
+          <div class="card-image placeholder-image"></div>
+          <h3>Scripting Bash</h3>
+          <p>
+            Apprenez à automatiser vos workflows avec des scripts Bash puissants et robustes.
+          </p>
+          <a href="#news" class="btn secondary">Lire le guide</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DERNIÈRES ACTUALITÉS IT -->
+  <section id="news" class="section section-alt">
+    <div class="container">
+      <h2>Dernières Actualités IT</h2>
+
+      <div class="news-grid">
+        <article class="news-item">
+          <p class="news-date">01/04/2026</p>
+          <h3>Optimisation du noyau Linux 6.6</h3>
+          <p>
+            Explorez les nouvelles fonctionnalités de performance et les optimisations du noyau 6.6.
+          </p>
+          <a href="#hero" class="btn link-btn">Lire l'article</a>
+        </article>
+
+        <article class="news-item">
+          <p class="news-date">15/03/2026</p>
+          <h3>Guide de configuration ZFS</h3>
+          <p>
+            Une approche technique détaillée pour mettre en place ZFS sur vos serveurs Linux.
+          </p>
+          <a href="#hero" class="btn link-btn">Lire l'article</a>
+        </article>
+
+        <article class="news-item">
+          <p class="news-date">28/02/2026</p>
+          <h3>Automatisation CI/CD</h3>
+          <p>
+            Apprenez à intégrer GitLab CI pour automatiser vos déploiements et tests.
+          </p>
+          <a href="#hero" class="btn link-btn">Lire l'article</a>
+        </article>
+
+        <article class="news-item">
+          <p class="news-date">12/02/2026</p>
+          <h3>Linux sur Raspberry Pi 5</h3>
+          <p>
+            Guide complet pour configurer votre micro-ordinateur avec Linux sur Raspberry Pi 5.
+          </p>
+          <a href="#hero" class="btn link-btn">Lire l'article</a>
+        </article>
+
+        <article class="news-item">
+          <p class="news-date">05/02/2026</p>
+          <h3>Sécurité réseau Linux</h3>
+          <p>
+            Prévention des attaques et configuration avancée de la sécurité réseau sous Linux.
+          </p>
+          <a href="#hero" class="btn link-btn">Lire l'article</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div>
+        <h2>MISSION TECHNIQUE</h2>
+        <hr class="section-divider" />
+        <p>
+          Le Linux Corner est un hub stratégique dédié à l'expertise Linux et aux
+          infrastructures open source. Nous aidons les équipes techniques à concevoir,
+          optimiser et sécuriser leurs environnements.
+        </p>
+        <p class="mission-tag">[MISSION_01]</p>
+        <p>
+          Optimisation de l'infrastructure via des guides détaillés, des tutoriels avancés
+          et des retours d'expérience concrets.
+        </p>
+      </div>
+      <div class="about-image placeholder-image"></div>
+    </div>
+  </section>
+
+  <!-- REJOIGNEZ LE TERMINAL -->
+  <section id="join" class="section section-cta">
+    <div class="container cta-inner">
+      <h2>REJOIGNEZ LE TERMINAL</h2>
+      <a href="#footer" class="btn primary">REJOINDRE</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">THE LINUX CORNER</div>
+        <p>CONTACT@THELINUXCORNER.COM</p>
+        <p>+33 1 23 45 67 89</p>
+      </div>
+      <div class="footer-bottom">
+        <hr />
+        <p>© 2026 THE LINUX CORNER. TOUT DROIT RÉSERVÉ.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
